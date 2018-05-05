@@ -3,16 +3,14 @@ html {
     color: #777777;
 }
 
-.header-div {
-    display: flex;
-    border: blueviolet 1px dotted;
-    align-content: center;
-    justify-content: space-between;
+body {
+    background-image: url('../images/light-grey-terrazzo.png');
 }
 
-header {
-    width: 100%;
-    border: blue 1px dotted;
+.header-div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -23,15 +21,14 @@ h1 {
 }
 
 .frame {
-    width: 70%;
-    border: black 1px dotted;
+    width: 960px;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 
 #my-name {
@@ -42,5 +39,4 @@ h1 {
 
 .main-div {
     padding: 2rem 0.5rem;
-    border: black 1px solid;
 }
