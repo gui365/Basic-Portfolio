@@ -155,30 +155,29 @@ h2 {
     opacity: 0.9;
 }
 
+.image-props {
+    opacity: 0.5;
+    background-repeat: no-repeat;
+}
+
 #project1 {
     background-image: url('../images/project1.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 #project2 {
     background-image: url('../images/project2.jpg');
-    background-repeat: no-repeat;
 }
 
 #project3 {
     background-image: url('../images/project3.jpg');
-    background-repeat: no-repeat;
 }
 
 #project4 {
     background-image: url('../images/project4.jpg');
-    background-repeat: no-repeat;
 }
 
 #project5 {
     background-image: url('../images/project5.jpg');
-    background-repeat: no-repeat;
 }
 
 .required {
@@ -209,6 +208,7 @@ footer a:hover {
     box-shadow: 3px 3px 10px #000000;
     transform: rotate(-1deg);
     transition-duration: 300ms;
+    opacity: 1;
 }
 
 #my-name:hover {
