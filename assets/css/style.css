@@ -1,10 +1,12 @@
 html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    height: 100%;
 }
 
 body {
     background-image: url('../images/light-grey-terrazzo.png');
+    height: 100%;
 }
 
 .header-div {
@@ -14,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #e3f8f7;
+    background-color: rgba(227, 248, 247, 0.9);
     border-bottom: 2px #cccccc solid; 
     position: fixed;
     left: 0;
@@ -64,6 +66,8 @@ a {
 .main-div {
     padding: 2rem 0.5rem;
     margin-top: 6rem;
+    min-height: 100%;
+    margin-bottom: 50px;
 }
 
 .main-div-content {
@@ -86,6 +90,9 @@ hr {
 #img-me {
     float: left;
     margin: 0 20px 20px 0;
+    height: 210px;
+    border: #a3a2a2 2px solid;
+    border-radius: 105px;
 }
 
 footer {
@@ -98,8 +105,16 @@ footer {
     font-size: 0.8rem;
 }
 
+i {
+    margin-bottom: 0.5rem;
+}
+
 input {
     height: 1.5rem;
+}
+
+#form-message {
+    width: 100%;
 }
 
 button {
@@ -170,24 +185,39 @@ h2 {
     color: red;
 }
 
-/* Pseudo classes styling */
+
+/*      Pseudo classes styling      */
+
 
 button:hover {
     background-color: #1d6461;
 }
 
-a:hover {
+nav a:hover {
     color: #B23E;
     background-color: rgba(253, 219, 222, 0.933);
     border-radius: 5px;
     padding: 12px;
 }
 
-.project-box:hover {
-    opacity: 0.8;
-    box-shadow: 3px 3px 10px #000000;
+footer a:hover {
+    color: #ffffff;
 }
 
-a:visited {
-    font-weight: bold;
+.project-box:hover {
+    /* opacity: 0.9; */
+    box-shadow: 3px 3px 10px #000000;
+    transform: rotate(-1deg);
+    transition-duration: 300ms;
+}
+
+#my-name:hover {
+    background-image: url('../images/name-bg2.jpg');
+    color: #000000;
+    opacity: 0.7;
+    transition-duration: 000ms;
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(253, 253, 227);
 }

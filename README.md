@@ -1,2 +1,1 @@
-# Basic-Portfolio
-This is my basic portfolio page (week 1 assignment)
+# gui365.github.io
