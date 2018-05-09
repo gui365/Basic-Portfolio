@@ -97,34 +97,60 @@ button {
     color: #ffffff;
     border: none;
     padding: 0.5rem 1.5rem;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 h2 {
     background-color: #4aaaa5;
-    padding-bottom: 0.6rem;
     color: #ffffff;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 2rem;
 }
 
 .project-box {
     display: flex;
+    margin: 1.2rem 1.2rem;
+    width: 300px;
+    height: 200px;
+    align-items: flex-end;
 }
 
 .project-name {
-    background-image: url('assets/images/project1.jpg');
-    width: 400px;
-    height: 200px;
-    border: black 1px solid;
-    align-items: flex-end;
-    text-align: center;
-    float: left;
-    margin: 1rem 1rem;
+    margin-bottom: 0.6rem;
+    opacity: 0.9;
 }
 
 #project1 {
-    background-image: url('assets/images/project1.jpg');
+    background-image: url('../images/project1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#project2 {
+    background-image: url('../images/project2.jpg');
+    background-repeat: no-repeat;
+}
+
+#project3 {
+    background-image: url('../images/project3.jpg');
+    background-repeat: no-repeat;
+}
+
+#project4 {
+    background-image: url('../images/project4.jpg');
+    background-repeat: no-repeat;
+}
+
+#project5 {
+    background-image: url('../images/project5.jpg');
+    background-repeat: no-repeat;
 }
