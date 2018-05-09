@@ -19,9 +19,9 @@
             </div>
             <div class="header-div-nav">
                 <nav>
-                    <a href="index.html">About</a><span> | </span>
-                    <a href="portfolio.html">Portfolio</a><span> | </span>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html" title="My Info">About</a><span> | </span>
+                    <a href="portfolio.html" title="My Work">Portfolio</a><span> | </span>
+                    <a href="contact.html" title="Contact me">Contact</a>
                 </nav>
             </div>
         </div>
@@ -36,9 +36,9 @@
                 <hr>
                 <form action="">
                     <label for="name">Name</label><br>
-                    <input type="text" style="width: 100%";>
-                    <label for="email">Email</label><br>
-                    <input type="text" style="width: 100%";>
+                    <input id="form-name" type="text" style="width: 100%;" title="Enter your full name">
+                    <label for="email">Email<span class="required">&nbsp;&#42;</span></label><br>
+                    <input id="form-email" type="text" style="width: 100%;" title="Enter your email address" required>
                     <label for="email">Message</label><br>
                     <textarea name="message" id="form-message" cols="120%" rows="10"></textarea>
                     <button>Submit</button>
