@@ -151,6 +151,7 @@ h2 {
     height: 200px;
     align-items: flex-end;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .project-name {
@@ -173,7 +174,7 @@ h2 {
 }
 
 #project3 {
-    background-image: url('../images/project3.jpg');
+    background-image: url('../images/project3.png');
 }
 
 #project4 {
